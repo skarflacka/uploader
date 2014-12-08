@@ -1,4 +1,4 @@
 Uploader
 ========
 
-Random uploader
+A picture uploader using Go.
