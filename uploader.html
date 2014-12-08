@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Uploader</title>
+		<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.18.1/build/cssreset/cssreset-min.css">
+		<link rel="stylesheet" type="text/css" href="stylesheet.css"/ >
+		<script src="https://code.jquery.com/jquery-1.5.2.min.js"></script>
+		<script src="app.js"></script>
+		<link href='http://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
+	</head>
+	<body>
+		<div id="wrap">
+			<div id="top-bar">
+			Tonyupload
+			</div>
+			<div id="content">
+				<div id="low-bar">
+					
+				</div>
+				<div id="group">
+					<img src="upload_example.png" align="middle">
+				</div>
+				Upload a picture and you will get back<br> a unique link to access it.<br><br>
+				<div id="file-box">
+					<span class="file-name">
+					</span>
+				</div>
+				<form action="http://localhost.com:8080/receive" method="post" enctype="multipart/form-data">
+				<input type="file" id="file" name="random" />
+				<label id="choose" for="file">Choose a file</label>
+				<label id="upload" value="submit" type="submit">Upload</label>
+				</form>
+			</div>
+		</div>
+	</body>
+</html>
