@@ -25,10 +25,11 @@
 					<span class="file-name">
 					</span>
 				</div>
-				<form action="http://localhost.com:8080/receive" method="post" enctype="multipart/form-data">
-				<input type="file" id="file" name="random" />
-				<label id="choose" for="file">Choose a file</label>
-				<label id="upload" value="submit" type="submit">Upload</label>
+				<form action="http://localhost:8080/upload" method="POST" enctype="multipart/form-data">
+					<input type="file" id="file-old" name="file" />
+					<label id="file-new" for="file-old">Choose a file</label>
+					<input type="submit" id="upload-old" value="upload" />
+					<label id="upload" for="upload-old">Upload</label>
 				</form>
 			</div>
 		</div>

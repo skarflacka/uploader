@@ -60,7 +60,7 @@ html, body {
 	float: none;
 }
 
-#choose {
+#file-new {
 	cursor: pointer;
 	-webkit-border-radius: 2px;
 	-moz-border-radius: 2px;
@@ -81,11 +81,11 @@ html, body {
 	font-family: 'Roboto Slab', serif;
 }
 
-#choose:hover {
+#file-new:hover {
 	background: #8de587;
 }
 
-#choose:active {
+#file-new:active {
 	background: #177e0f;
 	transition-duration: 0s;
 	margin-top: 2px;
@@ -125,6 +125,10 @@ html, body {
 	padding-bottom: 13px;
 }
 
-#file {
+#file-old {
+	display: none;
+}
+
+#upload-old {
 	display: none;
 }
