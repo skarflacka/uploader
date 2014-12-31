@@ -25,10 +25,11 @@
 					<span class="file-name">
 					</span>
 				</div>
-				<form action="http://localhost:8080/upload" method="POST" enctype="multipart/form-data">
+				<iframe name="formSending"></iframe>
+				<form action="http://localhost:8080/upload" method="POST" enctype="multipart/form-data" target="formSending">
 					<input type="file" id="file-old" name="file" />
 					<label id="file-new" for="file-old">Choose a file</label>
-					<input type="submit" id="upload-old" value="upload" />
+					<input type="submit" id="upload-old"/>
 					<label id="upload" for="upload-old">Upload</label>
 				</form>
 			</div>

@@ -125,6 +125,10 @@ html, body {
 	padding-bottom: 13px;
 }
 
+iframe {
+	display: none;
+}
+
 #file-old {
 	display: none;
 }
