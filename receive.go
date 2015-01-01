@@ -33,8 +33,8 @@ func Server(w http.ResponseWriter, req *http.Request) {
 
 	fmt.Println("Upload: " + s)
 
-	eerrr := os.Rename("/Users/tony/uploader/" + s, "/Users/tony/uploader/images/" + s)
-	if eerrr != nil {
+	foo := os.Rename("/Users/tony/uploader/" + s, "/Users/tony/uploader/images/" + s)
+	if foo != nil {
 		fmt.Println(err)
 	}
 	
